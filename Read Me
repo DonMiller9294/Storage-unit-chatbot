@@ -1,0 +1,71 @@
+
+![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
+![Tkinter](https://img.shields.io/badge/Tkinter-GUI-orange.svg)
+
+A simple chatbot application built with Python and Tkinter. This chatbot provides information about storage unit sizes, location, operating hours, and more.
+
+## Features
+
+- Predefined responses for common user queries.
+- User-friendly graphical user interface (GUI) built with Tkinter.
+- Scrollable chat history.
+- Easy-to-extend responses for the chatbot.
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.x installed on your system.
+- Tkinter library included with your Python installation.
+
+### Installation
+
+1. Clone this repository to your local machine using:
+
+   ```shell
+   git clone https://github.com/your-username/storage-unit-chatbot.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```shell
+   cd storage-unit-chatbot
+   ```
+
+3. Run the application:
+
+   ```shell
+   python main.py
+   ```
+
+## Usage
+
+- Type your message in the input field and press the "Send" button to interact with the chatbot.
+- The chatbot will respond to predefined queries about storage unit information.
+
+## Customization
+
+You can customize the chatbot by modifying the `chatbot_responses` dictionary in the `main.py` file. Add your own responses to handle additional user queries.
+
+```python
+# Define predefined responses for the chatbot
+chatbot_responses = {
+    "hello": "Hello! How can I assist you today?",
+    # Add more responses here
+}
+```
+
+## Contributing
+
+Contributions are welcome! If you have any improvements or feature suggestions, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- This project was created as a simple demonstration of building a chatbot using Python and Tkinter.-Don Miller
+```
+
+Replace `https://github.com/DonMiller9294/storage-unit-chatbot.git` with the actual URL of your GitHub repository.
